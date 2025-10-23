@@ -131,4 +131,4 @@ Pour exécuter l'application localement, assurez-vous d'avoir Python et les libr
 
 ## 8. Auteur
 
-Mohamed ELARCHAOUI - [[Lien vers votre LinkedIn](https://www.linkedin.com/in/mohamed-el-archaoui/)]
+ [[Mohamed EL ARCHAOUI](https://www.linkedin.com/in/mohamed-el-archaoui/)]
