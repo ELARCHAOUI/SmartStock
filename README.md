@@ -66,7 +66,6 @@ Le projet a suivi une approche structurée, intégrant plusieurs outils et techn
     *   Comparer les ventes réelles et prédites pour l'ensemble de la chaîne et pour des magasins spécifiques via des filtres dynamiques.
     *   Identifier les périodes ou les magasins où le modèle est le plus/moins précis.
     *   (Ajoute ici d'autres points si tu as pu développer plus de pages, ex: analyser l'impact de certaines features).
-*   **Lien vers le dashboard Power BI (fichier .pbix) :** [Lien vers ton fichier Power BI si tu le pousses, ou le lien vers Power BI Service si tu le publies]
 
 ### 3.5. Phase 5 : Déploiement de l'Application (Streamlit sur Render)
 *   **Outils :** Python, Streamlit, Render.com, `joblib`.
