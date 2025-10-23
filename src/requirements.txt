@@ -1,13 +1,15 @@
 # Librairies essentielles pour l'application Streamlit et le modèle LightGBM
-pandas==2.2.2      # Version proche de celle utilisée, ou laisse 'pandas'
-numpy==2.0.2       # Version proche de celle utilisée, ou laisse 'numpy'
-scikit-learn==1.6.1 # Version de scikit-learn (vérifie si tu as utilisé des éléments)
-lightgbm==4.6.0    # La version de LightGBM que tu as entraînée (très important !)
-streamlit==1.32.2  # Version de Streamlit (très important !)
-joblib==1.5.2      # Pour charger le modèle
-matplotlib==3.10.0 # Pour tes visualisations si tu en utilises dans Streamlit
-seaborn==0.13.2    # Pour tes visualisations si tu en utilises dans Streamlit
+pandas
+numpy
+scikit-learn
+lightgbm==4.6.0 # Laisser la version spécifique de LightGBM pour s'assurer de la compatibilité avec le modèle entraîné
+streamlit
+joblib
+matplotlib
+seaborn
 
-# Autres librairies que tu utilises potentiellement
-# Exemple si tu fais des calculs de dates avancés
-# python-dateutil==2.9.0.post0
+# Tu peux ajouter d'autres librairies STRICTEMENT nécessaires si tu en as utilisées
+# et que ton app.py ou le modèle en dépend (par exemple pour des fonctions de date spécifiques)
+# python-dateutil # Si ta logique de date dans app.py l'utilisait spécifiquement
+# pytz            # Souvent une dépendance de pandas pour les fuseaux horaires
+# tzdata          # Aussi une dépendance de pandas
