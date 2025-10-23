@@ -92,7 +92,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_2c0bff26f9374bb1b84aff4a405b9525~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_1922e997228f48cba12c3121fe19c2a5~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -120,7 +120,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_0217f1baeaf2494ea69619f64f6767ea~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_c29027fee8a948d1a8805c117a664164~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -179,7 +179,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_45bd898460644b35ab2d8efcb43c9978~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_ab9b0fcf34b54a46905642205968006b~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -233,7 +233,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="582" y="198" />
+        <Position x="582" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -312,7 +312,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_2ed79abbc1404e2b8943408d0d28ed8b~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_352546d010704ba587cecaa70c4e389c~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -340,7 +340,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_5128074ce02a4308be4a121f35b7a44a~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_d5b609c9f26747329e97013ad6c9154c~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -385,7 +385,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_b2f52f3af98b453dad1cf4886e798924~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_402c0c81f5af46ec8a5c740c7a8463dd~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -445,7 +445,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_19ed4b1782df442a80f04182d9ee5a52~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_3976b2178e3d4965a7639730718f4e9a~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -473,7 +473,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_0fe2b75e570d4aec90438d2f831569e2~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_e370a10484584dd591e573bef6e6f9c3~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -501,7 +501,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_f7dae36b84f04a7388720d3ffcfc7bdb~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_3d05d76f2bbb4b248ff8ca4a90dbceae~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -529,7 +529,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_f8241514caf240c68babec29580b8c84~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_9c9dda55a98f46b79d970a86b25157fd~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -612,7 +612,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_f429fd8a9b4c4e0898bc76b5cc3840e8~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_3d64e80c1c28458285b06f7e7eee32bc~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -640,7 +640,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_8c7baa4b927c4970a1e7574c4eae96c4~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_e867dbf980a549e79a129df5b0c1488d~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -677,6 +677,7 @@
             <FormulaField expression="Ceil(DateTimeMonth([Date]) / 3)" field="Quarter" size="2" type="Int16" enabled="true" />
             <FormulaField expression="IF [CompetitionDistance]=100000 THEN 0 ELSE 1 ENDIF" field="HasCompetition" size="1" type="Bool" enabled="true" />
             <FormulaField expression="IF [CompetitionOpenSinceMonth] = 0 THEN &quot;&quot;&#xA;ELSE ToString([CompetitionOpenSinceYear]) + &quot;-&quot; + &#xA;     PadLeft(ToString([CompetitionOpenSinceMonth]), 2, &quot;0&quot;) + &quot;-01&quot;&#xA;ENDIF" field="DateCompetition" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsEmpty([PromoInterval]) THEN &quot;None&quot; ELSE [PromoInterval] ENDIF" field="PromoInterval" size="254" type="V_String" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -694,7 +695,7 @@ IsStartOfMonth = IF Date...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_9864_30c6aab69a1f413db50f398e7081147e_\Engine_9864_9370326147284bfeb694eeeb395bc621~.yxdb</TempFile>
+          <TempFile>C:\Users\pc\AppData\Local\Temp1\Engine_22304_3b3c17a1524144f7ba4aab77bc8add5c_\Engine_22304_d037c7b85c8944fbb35eb9933215fdfc~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -779,6 +780,10 @@ IsStartOfMonth = IF Date...</DefaultAnnotationText>
             <FormulaField expression="IF [MonthOfYear]= 11 THEN 1 ELSE 0 ENDIF" field="Month_11" size="1" type="Bool" enabled="true" />
             <FormulaField expression="IF [MonthOfYear]= 12 THEN 1 ELSE 0 ENDIF" field="Month_12" size="1" type="Bool" enabled="true" />
             <FormulaField expression="IF IsNull([DateCompetition]) THEN ToDate(0) ELSE [DateCompetition] ENDIF" field="DateCompetition" size="10" type="Date" enabled="true" />
+            <FormulaField expression="IF [PromoInterval]='None' THEN 1 ELSE 0 ENDIF" field="PromoInterval_None" size="1" type="Byte" enabled="true" />
+            <FormulaField expression="IF [PromoInterval]='Jan,Apr,Jul,Oct' THEN 1 ELSE 0 ENDIF" field="PromoInterval_Jan_Apr_Jul_Oct" size="1" type="Byte" enabled="true" />
+            <FormulaField expression="IF [PromoInterval]='Feb,May,Aug,Nov' THEN 1 ELSE 0 ENDIF" field="PromoInterval_Feb_May_Aug_Nov" size="1" type="Byte" enabled="true" />
+            <FormulaField expression="IF [PromoInterval]='Mar,Jun,Sept,Dec' THEN 1 ELSE 0 ENDIF" field="PromoInterval_Mar_Jun_Sept_Dec" size="1" type="Byte" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -807,6 +812,7 @@ ELSE Dat...</DefaultAnnotationText>
             <SelectField field="StoreType" selected="False" />
             <SelectField field="Assortment" selected="False" />
             <SelectField field="Promo2" selected="True" type="Byte" size="1" />
+            <SelectField field="PromoInterval" selected="False" />
             <SelectField field="IsWeekend" selected="True" type="Byte" size="1" />
             <SelectField field="IsStartOfMonth" selected="True" type="Byte" size="1" />
             <SelectField field="IsEndOfMonth" selected="True" type="Byte" size="1" />
@@ -858,11 +864,11 @@ ELSE Dat...</DefaultAnnotationText>
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1482" y="630" />
+        <Position x="1494" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\pc\Desktop\rossmann-store-sales\tyu.csv</File>
+          <File MaxRecords="" FileFormat="0">C:\Users\pc\Desktop\rossmann-store-sales\o.csv</File>
           <Passwords />
           <Disable>False</Disable>
           <FormatSpecificOptions>
@@ -870,7 +876,7 @@ ELSE Dat...</DefaultAnnotationText>
             <Delimeter>,</Delimeter>
             <ForceQuotes>False</ForceQuotes>
             <HeaderRow>True</HeaderRow>
-            <CodePage>65001</CodePage>
+            <CodePage>28591</CodePage>
             <WriteBOM>True</WriteBOM>
             <SuppressBlankFile>False</SuppressBlankFile>
           </FormatSpecificOptions>
@@ -878,12 +884,9 @@ ELSE Dat...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>tyu.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>o.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>

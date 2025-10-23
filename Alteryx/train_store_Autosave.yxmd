@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="DayOfWeek" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="Customers" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="Promo" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="StateHoliday" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+            <Field name="SchoolHoliday" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\train.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="StoreType" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="Assortment" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="CompetitionDistance" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="CompetitionOpenSinceMonth" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="CompetitionOpenSinceYear" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="Promo2" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="Promo2SinceWeek" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="Promo2SinceYear" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+            <Field name="PromoInterval" size="254" source="File: C:\Users\pc\Downloads\Optimisation de la Chaîne Logistique &amp; Prédiction de Demande (E-commerce  Retail)\rossmann-store-sales\store.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_fe415759154c4f10be184a621bbffb61~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="66" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_2f4c3dc5024742d4933cf72a0bf9ae38~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_5bad255a85e6494395b905790a336dc6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="True" />
+          <SelectFields>
+            <SelectField field="DayOfWeek" selected="True" type="Int16" size="2" />
+            <SelectField field="Date" selected="True" type="Date" size="10" />
+            <SelectField field="Sales" selected="True" type="Int64" size="8" />
+            <SelectField field="Customers" selected="True" type="Int32" size="4" />
+            <SelectField field="Open" selected="True" type="Bool" size="1" />
+            <SelectField field="Promo" selected="True" type="Bool" size="1" />
+            <SelectField field="CompetitionDistance" selected="True" type="Double" size="8" />
+            <SelectField field="CompetitionOpenSinceMonth" selected="True" type="Int16" size="2" />
+            <SelectField field="CompetitionOpenSinceYear" selected="True" type="Int16" size="2" />
+            <SelectField field="Promo2" selected="True" type="Bool" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="582" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StateHoliday" action="GroupBy" rename="StateHoliday" />
+            <SummarizeField field="StateHoliday" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="582" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Customers" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="714" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="582" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreType" action="GroupBy" rename="StoreType" />
+            <SummarizeField field="Store" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_e054a82f74b649d6b1a755713bcf8353~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_011a44cba6f34918a3580828d32dff8a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Open] = 1 &amp;&amp; [Sales] &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Open] = 1 &amp;&amp; [Sales] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_132a93eee76745b387ace7cfdcf0d412~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>CompetitionDistance</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-10-18 11:53:09</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2025-10-18 11:53:09</StartDate>
+              <EndDate>2025-10-18 11:53:09</EndDate>
+              <Operand>
+              </Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([CompetitionDistance])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_2c2f476914534c0299cac273502d3a71~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_7ba85254cd904153b28a514768fe9317~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_c09d3caa3c8f40d3804ca191ba00ec8d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_ba980f1bede14439b4219f2c5b56daa1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="918" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([CompetitionDistance]) THEN 100000 ELSE [CompetitionDistance] ENDIF" field="CompetitionDistance" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF ISNULL([CompetitionOpenSinceMonth]) THEN 0 ELSE [CompetitionOpenSinceMonth] ENDIF" field="CompetitionOpenSinceMonth" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="IF ISNULL([CompetitionOpenSinceYear]) THEN 0 ELSE [CompetitionOpenSinceYear] ENDIF" field="CompetitionOpenSinceYear" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="IF ISNULL([Promo2SinceWeek]) THEN 0 ELSE [Promo2SinceWeek] ENDIF" field="Promo2SinceWeek" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="IF ISNULL([Promo2SinceYear]) THEN 0 ELSE [Promo2SinceYear] ENDIF" field="Promo2SinceYear" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="IF ISNULL([PromoInterval]) THEN &quot;&quot; ELSE [PromoInterval] ENDIF" field="PromoInterval" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CompetitionDistance = IF ISNULL([CompetitionDistance]) THEN 100000 ELSE [Competi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1158" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>Promo2SinceWeek</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-10-18 12:50:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2025-10-18 12:50:42</StartDate>
+              <EndDate>2025-10-18 12:50:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Promo2SinceWeek])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1254" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_fed43a72ee7841c6a409e1e6c418d475~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1266" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_85549db3150a4d8d9dde1899d5c59cd2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [DayOfWeek] IN (6,7) THEN 1 ELSE 0 ENDIF" field="IsWeekend" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF DateTimeDay([Date]) &lt;= 7 THEN 1 ELSE 0 ENDIF" field="IsStartOfMonth" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF DateTimeDay([Date]) &gt;= 24 THEN 1 ELSE 0 ENDIF" field="IsEndOfMonth" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="DateTimeMonth([Date])" field="MonthOfYear" size="1" type="Byte" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat([Date], &quot;%j&quot;))" field="DayOfYear" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="Ceil(DateTimeMonth([Date]) / 3)" field="Quarter" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="IF [CompetitionDistance]=100000 THEN 0 ELSE 1 ENDIF" field="HasCompetition" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [CompetitionOpenSinceMonth] = 0 THEN &quot;&quot;&#xA;ELSE ToString([CompetitionOpenSinceYear]) + &quot;-&quot; + &#xA;     PadLeft(ToString([CompetitionOpenSinceMonth]), 2, &quot;0&quot;) + &quot;-01&quot;&#xA;ENDIF" field="DateCompetition" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsEmpty([PromoInterval]) THEN &quot;None&quot; ELSE [PromoInterval] ENDIF" field="PromoInterval" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsWeekend = IF [DayOfWeek] IN (6,7) THEN 1 ELSE 0 ENDIF
+IsStartOfMonth = IF Date...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1518" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pc\AppData\Local\Temp\Alteryx\Engine_7676_86f9779611c04a76a6aa5b2e6e8f603a_\Engine_7676_eb3eb72b12084a688ffee3ff500003d6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateCompetition" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1302" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [CompetitionOpenSinceMonth] = 0 THEN 0&#xA;ELSE DateTimeDiff([Date], ToDate(ToString([CompetitionOpenSinceYear]) + &quot;-&quot; +&#xA;                               PadLeft(ToString([CompetitionOpenSinceMonth]), 2, &quot;0&quot;) + &quot;-01&quot;), 'days')&#xA;ENDIF" field="CompetitionOpenDurationDays" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF [Promo2] = 0 THEN 0&#xA;ELSEIF Contains([PromoInterval], DateTimeFormat([Date], &quot;%b&quot;)) THEN 1&#xA;ELSE 0&#xA;ENDIF" field="IsPromo2ActiveMonth" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StoreType] = &quot;a&quot; THEN 1 ELSE 0 ENDIF" field="StoreType_a" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StoreType] = &quot;b&quot; THEN 1 ELSE 0 ENDIF" field="StoreType_b" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StoreType] = &quot;c&quot; THEN 1 ELSE 0 ENDIF" field="StoreType_c" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StoreType] = &quot;d&quot; THEN 1 ELSE 0 ENDIF" field="StoreType_d" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [Assortment] = &quot;a&quot; THEN 1 ELSE 0 ENDIF" field="Assortment_a" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [Assortment] = &quot;b&quot; THEN 1 ELSE 0 ENDIF" field="Assortment_b" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [Assortment] = &quot;c&quot; THEN 1 ELSE 0 ENDIF" field="Assortment_c" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StateHoliday] = &quot;0&quot; THEN 1 ELSE 0 ENDIF" field="StateHoliday_0" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StateHoliday] = &quot;0&quot; THEN 1 ELSE 0 ENDIF" field="StateHoliday_a" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StateHoliday] = &quot;0&quot; THEN 1 ELSE 0 ENDIF" field="StateHoliday_b" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [StateHoliday] = &quot;0&quot; THEN 1 ELSE 0 ENDIF" field="StateHoliday_c" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [SchoolHoliday] = &quot;0&quot; THEN 1 ELSE 0 ENDIF" field="SchoolHoliday_0" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [SchoolHoliday] = &quot;1&quot; THEN 1 ELSE 0 ENDIF" field="SchoolHoliday_1" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 1 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_1" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 2 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_2" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 3 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_3" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 4 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_4" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 5 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_5" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 6 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_6" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [DayOfWeek]= 7 THEN 1 ELSE 0 ENDIF" field="DayOfWeek_7" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 1 THEN 1 ELSE 0 ENDIF" field="Month_1" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 2 THEN 1 ELSE 0 ENDIF" field="Month_2" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 3 THEN 1 ELSE 0 ENDIF" field="Month_3" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 4 THEN 1 ELSE 0 ENDIF" field="Month_4" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 5 THEN 1 ELSE 0 ENDIF" field="Month_5" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 6 THEN 1 ELSE 0 ENDIF" field="Month_6" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 7 THEN 1 ELSE 0 ENDIF" field="Month_7" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 8 THEN 1 ELSE 0 ENDIF" field="Month_8" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 9 THEN 1 ELSE 0 ENDIF" field="Month_9" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 10 THEN 1 ELSE 0 ENDIF" field="Month_10" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 11 THEN 1 ELSE 0 ENDIF" field="Month_11" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [MonthOfYear]= 12 THEN 1 ELSE 0 ENDIF" field="Month_12" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF IsNull([DateCompetition]) THEN ToDate(0) ELSE [DateCompetition] ENDIF" field="DateCompetition" size="10" type="Date" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CompetitionOpenDurationDays = IF [CompetitionOpenSinceMonth] = 0 THEN 0
+ELSE Dat...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1398" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DayOfWeek" selected="False" />
+            <SelectField field="Open" selected="True" type="Byte" size="1" />
+            <SelectField field="Promo" selected="True" type="Byte" size="1" />
+            <SelectField field="StateHoliday" selected="False" />
+            <SelectField field="SchoolHoliday" selected="False" />
+            <SelectField field="StoreType" selected="False" />
+            <SelectField field="Assortment" selected="False" />
+            <SelectField field="Promo2" selected="True" type="Byte" size="1" />
+            <SelectField field="IsWeekend" selected="True" type="Byte" size="1" />
+            <SelectField field="IsStartOfMonth" selected="True" type="Byte" size="1" />
+            <SelectField field="IsEndOfMonth" selected="True" type="Byte" size="1" />
+            <SelectField field="MonthOfYear" selected="False" />
+            <SelectField field="HasCompetition" selected="True" type="Byte" size="1" />
+            <SelectField field="IsPromo2ActiveMonth" selected="True" type="Byte" size="1" />
+            <SelectField field="StoreType_a" selected="True" type="Byte" size="1" />
+            <SelectField field="StoreType_b" selected="True" type="Byte" size="1" />
+            <SelectField field="StoreType_c" selected="True" type="Byte" size="1" />
+            <SelectField field="StoreType_d" selected="True" type="Byte" size="1" />
+            <SelectField field="Assortment_a" selected="True" type="Byte" size="1" />
+            <SelectField field="Assortment_b" selected="True" type="Byte" size="1" />
+            <SelectField field="Assortment_c" selected="True" type="Byte" size="1" />
+            <SelectField field="StateHoliday_0" selected="True" type="Byte" size="1" />
+            <SelectField field="StateHoliday_a" selected="True" type="Byte" size="1" />
+            <SelectField field="StateHoliday_b" selected="True" type="Byte" size="1" />
+            <SelectField field="StateHoliday_c" selected="True" type="Byte" size="1" />
+            <SelectField field="SchoolHoliday_0" selected="True" type="Byte" size="1" />
+            <SelectField field="SchoolHoliday_1" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_1" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_2" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_3" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_4" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_5" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_6" selected="True" type="Byte" size="1" />
+            <SelectField field="DayOfWeek_7" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_1" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_2" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_3" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_4" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_5" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_6" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_7" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_8" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_9" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_10" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_11" selected="True" type="Byte" size="1" />
+            <SelectField field="Month_12" selected="True" type="Byte" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1482" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\pc\Desktop\rossmann-store-sales\tyu.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tyu.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="False" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="False" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="False" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>train_store_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d646bc61-9dcb-4b88-9c62-038964546a83" />
+      <Telemetry>
+        <PreviousWorkflowId value="7e3f6f04-c30d-4ff2-94d2-c3d791efac8a" />
+        <OriginWorkflowId value="fdeaac8d-04c6-4b5b-a681-55b13ecc6b55" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
